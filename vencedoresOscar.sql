@@ -3,8 +3,8 @@ use bancoproa;
 
 
 create table vencedoresOscar (
-	nome varchar(100),
-    categoria varchar(100)
+    nome varchar(255),
+    categoria varchar(255)
 );
 
 insert into vencedoresOscar(nome, categoria) values ('Nomadland', 'Melhor filme');
